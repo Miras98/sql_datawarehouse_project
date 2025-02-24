@@ -1,3 +1,12 @@
+/*
+==================================================================================================
+DDL Scripts: create Silver Tables
+==================================================================================================
+Script Purpose:
+This crips creates tables in the 'silver' schema, dropping existing tables if they already exist.
+==================================================================================================
+*/
+
 IF OBJECT_ID ('silver.crm_cust_info', 'U') IS NOT NULL
 	DROP TABLE silver.crm_cust_info;
 CREATE TABLE silver.crm_cust_info (
