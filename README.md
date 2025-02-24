@@ -27,7 +27,10 @@ Develop SQL-based queries to answer business questions and gain insights into:
 - **Product Performance**
 - **Sales Trends**
 
+These insights focus on KPI metrics to optimize business decision-making. 
+
+
 ## About Me
 Hi there!My Name is **Amira Saeed** , I'm a passionate Data Analyst who's changing raw data into actionable insights.
 
-These insights focus on KPI metrics to optimize business decision-making. 
+
