@@ -1,10 +1,12 @@
 # Data Dictionary for Gold Layer
----
+----
+
 **OverView**
----
+
 The Gold Layer is the Business-ready data representation, structured to support analytical and reporting use cases. it consists 
 of **dimension tables** and **fact tables** for specific business metrics.
----
+
+----
 
 1. ## gold.dim_customers
 
