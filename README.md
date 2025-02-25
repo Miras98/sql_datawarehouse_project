@@ -54,7 +54,7 @@ The data architecture for this project follows Medallion architecture **Bronze**
   Database.
 2. **Silver Layer**: This step includes data cleansing, normalization and standardaization processess
  to prepare the data for analysis.
-3.**Gold Layer**: Business-ready data, modeled into a star schema for Analytical & Reporting Puproses.
+3. **Gold Layer**: Business-ready data, modeled into a star schema for Analytical & Reporting Puproses.
 
 ----
 
