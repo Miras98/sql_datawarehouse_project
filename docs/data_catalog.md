@@ -10,8 +10,9 @@ of **dimension tables** and **fact tables** for specific business metrics.
 
 1. ## gold.dim_customers
 
--**Purpose**: Stores customers details enriched with demographics and geographic data.
--**Columns** : 
+ ***Purpose**: Stores customers details enriched with demographics and geographic data.
+ 
+ ***Columns** : 
 
 | Column Name   | Data Type   | Description                                                                                  |
 |:--------------|:-----------:| :-----------------------------------------------------------------------------------         |
@@ -30,8 +31,9 @@ of **dimension tables** and **fact tables** for specific business metrics.
 
 2. ## gold.dim_product
 
--**Purpose**: Provides info about the products and their attributes.
--**Columns**: 
+ ***Purpose**: Provides info about the products and their attributes.
+ 
+ ***Columns**: 
 
 | Column Name   | Data Type   | Description                                                                                  |
 |:--------------|:-----------:|:----------------------------------------------------------------------------------           |
@@ -44,14 +46,15 @@ of **dimension tables** and **fact tables** for specific business metrics.
 |subcategory    | NVARCHAR(50)| A more detailed classification of the product within the category                            |
 |maintenance    | NVARCHAR(50)| Indicates whether the product requires mainteneance  (e.g.,'Yes', 'No').                     |
 |cost           | INT         | The cost or base price of the product                                                        |
-|product_line   | NVARCHAR(50)| The specific product line or series to which the product belongs                             |
+|product_line   | NVARCHAR(50)| The specific product line or series to which the product belongs(e.g.,'Road','Mountain')     |
 |start_date     | DATE        | The date when the product became available for sale or use                                   |
 
 ----
 
 3. ## gold.fact_Sales
--**Purpose**: Provides info about the products and their attributes.
--**Columns**: 
+ ***Purpose**: Provides info about the products and their attributes.
+ 
+ ***Columns**: 
 
 | Column Name   | Data Type   | Description                                                                                  |
 |:--------------|:-----------:|:----------------------------------------------------------------------------------           |
