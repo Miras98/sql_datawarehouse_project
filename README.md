@@ -17,11 +17,13 @@ and **Gold** layers.
 
 
 ## 🚀 Project Requirments:
+---
 ### Building the Data Warehouse(Data Engineering)
 #### Objective
 developing a data warehouse for sales data using SQL Server, enabling analytical reporting and infromed decision-making.
 
 #### Specifications:
+---
 - **Data Sources**: import data from two main systems (CRM and ERP) provided as CSV File
 - **Data Quality** : cleanse and resolve data quality issues prior to analysis
 - **Integration** : combine both data sources into single, user-friendly data model desinged for analytical purposes
@@ -30,7 +32,7 @@ developing a data warehouse for sales data using SQL Server, enabling analytical
 ---
 
 ### BI: Analytics & Reporting
-
+---
 #### Objective
 Develop Tableau Dashboard to answer business questions and gain insights into:
 - **Customer Behavior**
@@ -45,13 +47,22 @@ These insights focus on KPI metrics to optimize business decision-making.
 ---
 The data architecture for this project follows Medallion architecture **Bronze**, **Silver**, and **Gold** layers
 
-![image alt](image_url)
+([image_url](https://github.com/Miras98/sql_datawarehouse_project/blob/9a616842f3782bdb8caa0270f548efb1da7ebb28/docs/data%20architecture.png))
 
 
+---
+1. **Bronze Layer**: Stores raw data as-is from the source system, data is ingested from CSV Files into SQL Server
+  Database.
+2. **Silver Layer**: This step includes data cleansing, normalization and standardaization processess
+ to prepare the data for analysis.
+3.**Gold Layer**: Business-ready data, modeled into a star schema for Analytical & Reporting Puproses.
+
+----
 
 
-
-## About Me
-Hi there!My Name is **Amira Saeed** , I'm a passionate Data Analyst who's changing raw data into actionable insights.
+## 🌟 About Me
+---
+Hi there!My Name is **Amira Saeed** , I'm passionate about data analysis and i have a solid background in Statistics and Economics.
+I excel in transforming complex data into actionable insights that contribute to organizational success.
 
 
