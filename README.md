@@ -47,7 +47,7 @@ These insights focus on KPI metrics to optimize business decision-making.
 
 The data architecture for this project follows Medallion architecture **Bronze**, **Silver**, and **Gold** layers
 
-![image alt](https://github.com/Miras98/sql_datawarehouse_project/blob/105a9e3ec681244430a02eaa1d91780c5e669665/docs/data%20architecture.png)
+![image alt](https://github.com/Miras98/sql_datawarehouse_project/blob/de2fd75dc8ba54554cc7996b1496c75b78ab4b7b/docs/data%20architecture1-drawio.png)
 
 
 1. **Bronze Layer**: Stores raw data as-is from the source system, data is ingested from CSV Files into SQL Server
