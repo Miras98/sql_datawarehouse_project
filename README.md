@@ -6,7 +6,7 @@ Designed as portfolio project, it highlights industry best practices in data eng
 
 -----
 ## 📖 Project Overview
----
+
 This project invloves:
 1. **Data Architecture**: Designing a modern data warehouse using Medallion architecture **Bronze**, **Silver**
 and **Gold** layers.
@@ -17,22 +17,22 @@ and **Gold** layers.
 
 
 ## 🚀 Project Requirments:
----
+
 ### Building the Data Warehouse(Data Engineering)
 #### Objective
 developing a data warehouse for sales data using SQL Server, enabling analytical reporting and infromed decision-making.
 
 #### Specifications:
----
+
 - **Data Sources**: import data from two main systems (CRM and ERP) provided as CSV File
 - **Data Quality** : cleanse and resolve data quality issues prior to analysis
 - **Integration** : combine both data sources into single, user-friendly data model desinged for analytical purposes
 - **Documentation** : provide a clear document of the data model for both stakeholders and analytics team
 
----
+
 
 ### BI: Analytics & Reporting
----
+
 #### Objective
 Develop Tableau Dashboard to answer business questions and gain insights into:
 - **Customer Behavior**
@@ -44,13 +44,12 @@ These insights focus on KPI metrics to optimize business decision-making.
 ----
 
 ## 🏗️ Data Architecture 
----
+
 The data architecture for this project follows Medallion architecture **Bronze**, **Silver**, and **Gold** layers
 
-([image_url](https://github.com/Miras98/sql_datawarehouse_project/blob/9a616842f3782bdb8caa0270f548efb1da7ebb28/docs/data%20architecture.png))
+![image alt](https://github.com/Miras98/sql_datawarehouse_project/blob/105a9e3ec681244430a02eaa1d91780c5e669665/docs/data%20architecture.png)
 
 
----
 1. **Bronze Layer**: Stores raw data as-is from the source system, data is ingested from CSV Files into SQL Server
   Database.
 2. **Silver Layer**: This step includes data cleansing, normalization and standardaization processess
@@ -61,7 +60,7 @@ The data architecture for this project follows Medallion architecture **Bronze**
 
 
 ## 🌟 About Me
----
+
 Hi there!My Name is **Amira Saeed** , I'm passionate about data analysis and i have a solid background in Statistics and Economics.
 I excel in transforming complex data into actionable insights that contribute to organizational success.
 
