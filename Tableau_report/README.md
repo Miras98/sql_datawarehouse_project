@@ -32,7 +32,7 @@ You can explore the interactive Dashboard on Tableau Public:
 ---
 
 ## Dashboard Preview
-Here's a preview of the story created using Tableau:
+Here's a preview of the dashboard created using Tableau:
 
 ![Sales Analysis Dashboard](https://github.com/Miras98/sql_datawarehouse_project/blob/82d8d1a9f4d618e0099e25e25b4336591e1e5194/Tableau_report/Sales%20Preview.PNG)
 
@@ -46,7 +46,7 @@ The analysis is performed using the following datasets:
 
 ---
 
-## ❓ Business Questions
+## Business Questions
 The analysis aims to answer the following key business questions:
 - **Sales Analysis:**
   - What are the total sales and Profit trends over time?
