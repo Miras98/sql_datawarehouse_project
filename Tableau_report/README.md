@@ -27,14 +27,14 @@ country, product categories, and customer demographics.
 
 ## Live Dashboard
 You can explore the interactive Dashboard on Tableau Public:  
-[View the Sales Analysis story](https://public.tableau.com/app/profile/amira.saeed/viz/SalesAnalysis_17408325342030/Story1?publish=yes)
+[View the Sales Analysis Dashboard](https://public.tableau.com/app/profile/amira.saeed/viz/SalesAnalysis_17408325342030/Story1?publish=yes)
 
 ---
 
 ## Dashboard Preview
 Here's a preview of the story created using Tableau:
 
-![Sales Analysis Dashboard](images/dashboard-preview.png)
+![Sales Analysis Dashboard](https://github.com/Miras98/sql_datawarehouse_project/blob/82d8d1a9f4d618e0099e25e25b4336591e1e5194/Tableau_report/Sales%20Preview.PNG)
 
 ---
 
