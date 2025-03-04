@@ -1,7 +1,7 @@
 # 📊 Exploratory Data Analysis (EDA) Using SQL  
 
 ## **Introduction**  
-This document contains a series of **SQL queries** designed to perform **Exploratory Data Analysis (EDA)** on the newly created database. 
+This document contains a series of **SQL queries** designed to perform **Exploratory Data Analysis (EDA)** after creating the data warehouse. 
 The goal of this analysis is to extract key **metrics, KPIs, and general insights** about the dataset before diving into deeper analytics or dashboard creation.  
 
 ## **Objectives of EDA**  
@@ -17,7 +17,7 @@ The SQL queries in this file will focus on:
 3. **Customer Insights** – Customer demographics, high-value customers.  
 4. **Product Performance** – Best-selling products, least-selling items, category performance.  
 
-Let’s dive into the data 🚀
+Let’s dive into the Analysis 🚀
 ---
 1- Explore all columns in the dim_customers table:
 ```sql
