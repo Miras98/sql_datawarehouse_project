@@ -1,3 +1,4 @@
+```sql
 /*
 ===============================================================================
 Customer Report
@@ -20,14 +21,18 @@ Highlights:
 		- average monthly spend
 ===============================================================================
 */
-
+```
+```sql
 -- =============================================================================
 -- Create Report: gold.report_customers
 -- =============================================================================
+```
+```sql
 IF OBJECT_ID('gold.report_customers', 'V') IS NOT NULL
     DROP VIEW gold.report_customers;
 GO
-
+```
+```sql
 CREATE VIEW gold.report_customers AS
 
 WITH base_query AS(
@@ -104,3 +109,4 @@ CASE WHEN lifespan = 0 THEN total_sales
      ELSE total_sales / lifespan
 END AS avg_monthly_spend
 FROM customer_aggregation
+```
